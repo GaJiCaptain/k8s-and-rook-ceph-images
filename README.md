@@ -16,7 +16,7 @@ FROM k8s.gcr.io/sig-storage/csi-snapshotter:v4.1.1
 FROM k8s.gcr.io/sig-storage/csi-attacher:v3.2.1
 FROM k8s.gcr.io/sig-storage/csi-resizer:v1.2.0
 FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.2.0
-FROM quay.io/cephcsi/cephcsi:canary:v3.3.1
+FROM quay.io/cephcsi/cephcsi:v3.3.1
 FROM rook/ceph:v1.6.8
 FROM ceph/ceph:v15.2.13
 ```
