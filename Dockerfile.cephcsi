@@ -1,0 +1,1 @@
+FROM quay.io/cephcsi/cephcsi:canary:v3.3.1
